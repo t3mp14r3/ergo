@@ -4,10 +4,10 @@
 
 char * get_tasks_path() {
 	char * home = getenv("HOME");
-	char * path = calloc(strlen(home)+22, sizeof(char));
+	char * path = calloc(strlen(home)+20, sizeof(char));
 	
 	strcpy(path, home);
-	strcat(path, "/.config/cerber/tasks");
+	strcat(path, "/.config/ergo/tasks");
 
 	return path;
 }

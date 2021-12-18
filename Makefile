@@ -63,7 +63,7 @@ obj/main.o: main.c
 
 $(RESULT): obj/menu.o obj/help.o obj/open.o obj/new_list.o obj/rename_list.o obj/new_task.o obj/rename_task.o obj/input.o obj/lists.o obj/serial.o obj/setup.o obj/task.o obj/tasks.o obj/yyjson.o obj/main.o
 	gcc obj/*.o -o $(RESULT)
-	mkdir -p "$(HOME)/.config/cerber/tasks"
+	mkdir -p "$(HOME)/.config/ergo/tasks"
 
 install: ./obj/ $(RESULT)
 	cp ergo "$(INSTALL)/$(RESULT)"

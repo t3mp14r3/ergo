@@ -13,14 +13,14 @@ Clone the repository
 git clone github.com/t3mp14r3/ergo.git
 ```
 
-Compile the source code and install the binary (might require sudo)
-```
-make install
-```
-
-Alternatively you can just compile the code and then put the binary in your own path. You can also change the installation directory by modifying the INSTALL variable in the Makefile
+Compile the source code
 ```
 make
+```
+
+Add binary to the path
+```
+make install
 ```
 
 To clean the source directory you can run
@@ -28,7 +28,7 @@ To clean the source directory you can run
 make clean
 ```
 
-To uninstall ergo, you can use the uninstall rule (might require sudo)
+To uninstall ergo, you can use the uninstall rule
 ```
 make uninstall
 ```
