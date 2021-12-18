@@ -61,6 +61,7 @@ To store the lists of tasks ergo uses `.json` files. They are being stored by de
 
 
 ## ToDo
+- [ ] Refactor the code
 - [ ] Make the configuration more flexible
 - [ ] Add description to the tasks
 - [ ] Add sublist inside the task lists
