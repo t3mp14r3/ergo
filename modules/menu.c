@@ -50,7 +50,7 @@ void menu() {
 			continue;
 		} else if (input == 100) {
 			delete_list(lists[selector]);
-			if (selector == (lists_counter - 1))
+			if ((selector == (lists_counter - 1)) && (selector != 0))
 				selector--;
 			strcpy(&input, "");
 			continue;

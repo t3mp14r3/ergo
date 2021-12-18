@@ -63,9 +63,8 @@ void open(char name[256]) {
 		} else if (input == 100) {
 			delete_task(name, tasks[selector].name);
 			strcpy(&input, "");
-			if (selector == tasks_counter-1) {
+			if ((selector == tasks_counter-1) && (selector != 0))
 				selector--;
-			}
 			continue;
 		}
 
