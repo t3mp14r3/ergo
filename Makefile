@@ -65,7 +65,7 @@ $(RESULT): obj/menu.o obj/help.o obj/open.o obj/new_list.o obj/rename_list.o obj
 	gcc obj/*.o -o $(RESULT)
 	mkdir -p "$(HOME)/.config/cerber/tasks"
 
-install: $(RESULT)
+install: ./obj/ $(RESULT)
 	cp ergo "$(INSTALL)/$(RESULT)"
 
 uninstall:
