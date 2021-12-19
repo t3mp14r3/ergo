@@ -10,7 +10,7 @@ Please note, that the project is in the early stage of development, so there are
 ## Installation
 Clone the repository
 ```
-git clone github.com/t3mp14r3/ergo.git
+git clone https://github.com/t3mp14r3/ergo.git
 ```
 
 Compile the source code
